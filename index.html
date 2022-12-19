@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/jpg" href="imagenes/youtube.svg" />
+    <title>Youtubers</title>
+</head>
+
+<body>
+    <br>
+    <br>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="imagenes/youtube.svg" alt="" id="imagenMenu">
+                Youtubers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Eventos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Media
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="tablaDatos.html">Tabla de datos</a></li>
+                            <li><a class="dropdown-item" href="graficaDatos.html">Gráfica de datos</a></li>
+                            <li><a class="dropdown-item" href="paginaVideo.html">Video</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Hazte youtuber</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1 id="titulo">Youtubers</h1>
+    <br>
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/imagen1.jpg" class="imagenes d-block w-100 h-500px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/imagen2.jpg" class="imagenes d-block w-100 h-500px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/imagen3.jpg" class="imagenes d-block w-100 h-500px" alt="..." id="imagen3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <br>
+        <h2>Lo más visto (España)</h2>
+        <hr>
+
+        <div class="row">
+            <div class="flip-card col-3">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="imagenes/illojuan.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Illojuan</h1>
+                        <p>Streamer español</p>
+                        <p>1,34 millones de subs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card col-3">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>Mejores youtubers</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Descubre youtubers</h1>
+                        <p>Esto y mucho más</p>
+                        <p>Solo en esta web</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card col-3">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="imagenes/ibai.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Ibai Llanos</h1>
+                        <p>Streamer y caster</p>
+                        <p>9,73 millones de subs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card col-3">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>Youtubers</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Descubre más</h1>
+                        <p>Web dedicada a youtubers</p>
+                        <p>Y streamers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <h2>¿Qué se necesita para ser youtuber?</h2>
+        <hr>
+        <div class="row">
+            <div class="texto col-7">
+                <div>
+                    <p>Para grabar vídeos en YouTube solo necesitas una cámara como la de tu móvil, pero
+                        para ser youtuber
+                        tendrás que
+                        dar el salto y mejorar tu equipo con estos productos.</p>
+                </div>
+                <br>
+                <div>
+                    <p>Ser youtuber es a día de hoy una profesión como cualquier otra de un creador de
+                        contenidos. Aunque llegar
+                        a ser
+                        un youtuber conocido es un trabajo muy duro que requiere muchísimo tiempo y dedicación, no hay
+                        duda
+                        que
+                        cada vez
+                        hay más personas que se quieren dedicar a ello a tiempo parcial o completo.</p>
+                </div>
+                <br>
+                <div>
+                    <p>No existen muchas diferencias entre ser youtuber y ser streamer. Siempre que tengas
+                        algo interesante que
+                        contar o
+                        hacer tendrás una audiencia. Además, el tipo de productos que puedes necesitar para hacer
+                        streaming
+                        o
+                        grabar
+                        vídeos para YouTube se solapan.</p>
+                </div>
+                <br>
+                <div>
+                    <p>Para ser youtuber solo se necesita una cámara y una conexión a internet para subir
+                        los vídeos, y eso ya
+                        lo tienes
+                        en tu móvil. Pero hay mucha diferencia entre grabar un vídeo con un móvil, editarlo en el mismo
+                        móvil y
+                        subirlo
+                        a YouTube, que crear contenidos con mayor calidad.</p>
+                </div>
+            </div>
+
+            <sidebar class="sidebar col-5">
+
+                <img src="imagenes/sidebar.jpg" alt="">
+                <h1>YOUTUBE</h1>
+                <p>Este es el enlace a youtube</p>
+                <p>Es el momento de comenzar tu carrera</p>
+
+                <div class="row">
+                    <a href="https://www.youtube.com/"><input type="button" value="Youtube"></a>
+                </div>
+            </sidebar>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p> Antonio Fernández Marín</p>
+        <p> Copyright &copy; todos los derechos reservados 2022</p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons"
+                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><a
+            rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"></a>.
+    </div>
+</body>
+
+</html>
